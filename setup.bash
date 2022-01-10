@@ -21,7 +21,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 # Instalando o telegram
 wget "https://telegram.org/dl/desktop/linux" -O telegram.tar.xz
 sudo tar -xvf telegram.tar.xz -C /opt
-sudo mv /opt/telegram /opt/telegram-desktop
+sudo mv /opt/Telegram /opt/telegram-desktop
 sudo ln -sf /opt/telegram-desktop/Telegram /usr/bin/telegram
 echo -e '\n[Desktop Entry]\nName=Telegram\nExec=/opt/telegram-desktop/Telegram\nIcon=/opt/telegram-desktop/Telegram\nType=Application\nCategories=Network;InstantMessaging;' | sudo tee /usr/share/applications/telegram.desktop
 
